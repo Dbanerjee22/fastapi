@@ -17,7 +17,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-#request from url '/'
+#request from url '/asdasdas'
 my_posts = [{"title":"title of post 1","content":"content if post 1","id":2},{"title":"favorite foods","content":"I like pizza","id":1}]
 
 app.include_router(post.router)
